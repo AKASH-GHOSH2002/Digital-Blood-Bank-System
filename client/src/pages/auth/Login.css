@@ -1,0 +1,80 @@
+@media screen and (max-width:741px) and (min-width:250px) {
+
+    .form-container {
+        width: 100%;
+        top: 10%;
+    }
+
+    .form-container form {
+        color: #000;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .modeselection {
+        font-size: 0.8rem;
+    }
+
+    .form_body {
+        overflow-x: hidden;
+    }
+
+    .form-banner img {
+        width: 100%;
+    }
+}
+
+i {
+    color: #000;
+}
+/* 26.06.25 css start */
+.login-wrap {
+    border-radius: 10px;
+    padding: 30px;
+    background: rgb(255 255 255 / 50%);
+}
+
+.login-wrap .form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.login-wrap input[type="password"] {
+    margin-bottom: 15px;
+}
+
+.login-wrap a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+.login-wrap button[type="submit"] {
+    background: #000000;
+    border-color: #000000;
+}
+
+.login-wrap button[type="submit"]:hover {
+    background: #0000ff;
+    border-color: #0000ff;
+}
+
+.register-wrap input[name="phone"] {
+    margin-bottom: 25px;
+}
+
+.register-wrap input:focus,
+.login-wrap input:focus {
+    box-shadow: none;
+    border-color: #000000;
+}
+
+.register-wrap .login-wrap a,
+.login-wrap a:hover {
+    color: #0000ff;
+}
+
+.register-wrap .login-wrap a:hover {
+    color: #000000;
+}
