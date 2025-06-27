@@ -1,0 +1,18 @@
+name: 🚀 Auto Deploy to Render
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🚀 Trigger Render Deploy
+        run: |
+          curl -X POST "https://api.render.com/deploy/srv-d15sf8qdbo4c73c63tp0?key=nDbiO6sDars"
